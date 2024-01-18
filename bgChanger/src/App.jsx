@@ -4,13 +4,11 @@ function App() {
   const [color, setColor] = useState("olive");
 
   //TODO
-    // 1. Add more colors button  and in the end give color picker
-    // 2. Make a component insted of multiple buttons here
-    // 3. The color should persist on refresh
-    // 4. use Context API to make it available to all components
-    // 5. so one componet to preview color other component bar which will have multiple color components
-
-
+  // 1. Add more colors button  and in the end give color picker
+  // 2. Make a component insted of multiple buttons here
+  // 3. The color should persist on refresh
+  // 4. use Context API to make it available to all components
+  // 5. so one componet to preview color other component bar which will have multiple color components
 
   return (
     <>
@@ -27,6 +25,7 @@ function App() {
             >
               Red
             </button>
+
             <button
               className="outline-none px-4 py-1 rounded-full shadow-lg text-white"
               style={{ backgroundColor: "green" }}
