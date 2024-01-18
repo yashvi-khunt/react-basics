@@ -2,6 +2,16 @@ import { useState } from "react";
 
 function App() {
   const [color, setColor] = useState("olive");
+
+  //TODO
+    // 1. Add more colors button  and in the end give color picker
+    // 2. Make a component insted of multiple buttons here
+    // 3. The color should persist on refresh
+    // 4. use Context API to make it available to all components
+    // 5. so one componet to preview color other component bar which will have multiple color components
+
+
+
   return (
     <>
       <div
