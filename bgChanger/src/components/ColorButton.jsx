@@ -2,10 +2,10 @@ import React, { useContext, useState } from "react";
 import { ColorContext } from "../context/ColorContext";
 
 function ColorButton({ color, textColor = "white" }) {
-  const { setBgColor } = useContext(ColorContext);
+  const { changeBgColor } = useContext(ColorContext);
   const changeColor = () => {
-    setBgColor(color);
-    localStorage.setItem("color", color);
+    changeBgColor(color);
+    // localStorage.setItem("color", color);
   };
   return (
     <>
