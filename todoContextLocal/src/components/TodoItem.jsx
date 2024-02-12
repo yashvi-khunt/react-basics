@@ -23,6 +23,7 @@ function TodoItem({ todo }) {
       }`}
     >
       <input
+        id={todo.id}
         type="checkbox"
         className="cursor-pointer"
         checked={todo.completed}

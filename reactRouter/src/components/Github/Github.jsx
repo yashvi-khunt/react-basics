@@ -1,6 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+
 import { useLoaderData } from "react-router-dom";
 
 function Github() {
@@ -22,6 +21,6 @@ function Github() {
 export default Github;
 
 export const githubInfoLoader = async () => {
-  const response = await fetch("https://api.github.com/users/yashvi-khunt");
+  const response = await fetch("https://api.github.com/users/YASH-8102");
   return response.json();
 };
